@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "facial_expression_recognition_mobilefacenet_example"
+version = "0.1.0"
+description = "facial expression recognition example scripts"
+authors = ["T-Sumida <ui.suto05@gmail.com>"]
+license = "Apache-License 2.0"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+tflite-runtime = "2.5.0"
+opencv-python = "^4.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
